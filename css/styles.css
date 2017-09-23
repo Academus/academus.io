@@ -33,7 +33,7 @@ a {
 .hero {
   height: 400px;
   position: relative;
-  background: url(https://studentvoice589.files.wordpress.com/2011/09/pic-of-students-working-at-desk.jpg);
+  background: url(/img/hero.jpg);
   background-size: cover;
   background-position: center;
 }
