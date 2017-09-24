@@ -63,7 +63,7 @@ section h1 {
   font-size: 2em;
 }
 
-section p {
+section p, section ul {
   line-height: 1.7em;
 }
 
