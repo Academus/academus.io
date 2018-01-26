@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>Academus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/rgs.css">
+    <link rel="stylesheet" href="/fonts/avenir-next.css">
+    <link rel="stylesheet" href="/css/styles.css?v6">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Privacy Policy"/>
+    <meta property="og:site_name" content="Academus"/>
+    <meta property="og:description" content="What data we collect and how we protect it"/>
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/19213625"/>
+    <meta property="og:url" content="https://academus.io"/>
+  </head>
+  <body>
+    <div class="content">
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Privacy Policy</h1>
+          <h2>What data we collect and how we protect it</h2>
+        </div>
+        <div class="hero-background"></div>
+      </div>
+
+      <section>
+        <h1>What data does Academus collect?</h1>
+
+        <p>
+          When you sign up for an account, Academus will collect information including,
+          but not limited to:
+
+          <ul>
+            <li>Your first and last name</li>
+            <li>Your email address</li>
+            <li>A password for your account, which is later hashed and salted in our database</li>
+          </ul>
+
+          When you add an integration to your Academus account, the specific information varies.
+          For StudentVUE integrations, Academus will collect:
+
+          <ul>
+            <li>Your StudentVUE username</li>
+            <li>Your StudentVUE password, which is later tokenized and salted in our database</li>
+          </ul>
+
+          For PowerSchool integrations, Academus will collect:
+
+          <ul>
+            <li>Your district code</li>
+            <li>Your PowerSchool username</li>
+            <li>Your PowerSchool password, which is later tokenized and salted in our database</li>
+          </ul>
+
+          Other data that is collected can include, but is not limited to:
+
+          <ul>
+            <li>Your legal name (provided by SIS integrations)</li>
+            <li>Your physical address</li>
+            <li>Your phone number</li>
+            <li>Other personal information provided by integrations</li>
+          </ul>
+
+          We <strong>never</strong> store any unnecessary info like your physical address in our database, but we'd like
+          to be transparent about every bit of data that goes through our infrastructure.
+        </p>
+      </section>
+
+      <section>
+        <h1>How does Academus protect data?</h1>
+
+        <p>
+          We know that student information systems can hold sensitive information about a user,
+          and this is why we've taken several steps to ensure that your data is safe and secure.
+          We use industry-standard SSL encryption in all communications between the app and server,
+          and tokenize third-party usernames and passwords whenever possible.
+        </p>
+
+        <p>
+          Our infrastructure is hosted on Azure, with each server having isolated Dockerized containers
+          that only expose the resources necessary (such as the API server) for the app to work.
+          Every server we own is protected by a private key and has the latest security updates.
+        </p>
+      </section>
+      
+    </div>
+
+    <footer>
+      ☕️ A <a href="https://insomniacs.me">Caffeinated Insomniacs</a> project.
+    </footer>
+  </body>
+</html>
