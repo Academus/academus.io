@@ -1,0 +1,144 @@
+*, * * {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: #212121;
+  background: #FBFBFB;
+  font-family: "Avenir Next";
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+}
+
+.nav .logo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  background-size: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/img/favicon.png);
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero, .hero-inner, .hero-left {
+  color: #FBFBFB;
+  background: #212121;
+}
+
+.hero-content {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  height: 700px;
+  width: 100%;
+}
+
+.hero-left, .hero-right {
+  top: 0;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.hero-left {
+  padding-top: 50px;
+  font-family: "Avenir Next";
+  font-weight: 600;
+  font-size: 6em;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.hero-right {
+  height: 100%;
+  width: 500px;
+  background-image: url(/img/screen_landing.png);
+  background-size: cover;
+  margin-left: 25px;
+}
+
+#integration-name {
+  color: #6DAA6D;
+}
+
+@media only screen and (max-width: 1470px) {
+  .hero-content {
+    height: 650px;
+  }
+
+  .hero-left {
+    font-size: 4em;
+  }
+
+  .hero-right {
+    width: 400px;
+  }
+}
+
+.content-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #212121;
+  background: #FBFBFB;
+  font-size: 1.3em;
+}
+
+a {
+  color: #212121;
+}
+
+@media only screen and (max-width: 1000px) {
+	.hero-left, .hero-right {
+    height: initial;
+    width: 100%;
+  }
+
+  .hero-content {
+    position: relative;
+  }
+
+  .hero-left {
+    text-align: center;
+    font-size: 3em;
+    padding-right: 0;
+  }
+
+  .hero-right {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    width: 350px;
+    height: 427px;
+  }
+
+  .hero {
+    height: initial;
+  }
+
+  .nav {
+    display: none;
+  }
+}
