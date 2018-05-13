@@ -36,7 +36,8 @@ body {
 }
 
 .hero {
-  height: 100%;
+  position: relative;
+  height: 600px;
   width: 100%;
 }
 
@@ -49,8 +50,15 @@ body {
   margin: 0 auto;
   position: absolute;
   bottom: 0;
-  height: 700px;
+  height: 550px;
   width: 100%;
+}
+
+.diagram {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  display: block;
 }
 
 .hero-left, .hero-right {
@@ -65,14 +73,14 @@ body {
   padding-top: 50px;
   font-family: "Avenir Next";
   font-weight: 600;
-  font-size: 6em;
+  font-size: 4em;
   text-align: right;
   padding-right: 25px;
 }
 
 .hero-right {
   height: 100%;
-  width: 500px;
+  width: 400px;
   background-image: url(/img/screen_landing.png);
   background-size: cover;
   margin-left: 25px;
@@ -97,7 +105,7 @@ body {
 }
 
 .content-inner {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
   margin-bottom: 20px;
