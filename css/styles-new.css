@@ -123,6 +123,14 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+  .hero-content {
+    height: 650px;
+  }
+
+  .diagram {
+    max-width: 100%;
+  }
+
 	.hero-left, .hero-right {
     height: initial;
     width: 100%;
