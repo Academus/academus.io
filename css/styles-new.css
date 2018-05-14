@@ -90,7 +90,7 @@ body {
   color: #6DAA6D;
 }
 
-@media only screen and (max-width: 1470px) {
+/* @media only screen and (max-width: 1470px) {
   .hero-content {
     height: 650px;
   }
@@ -106,7 +106,7 @@ body {
   .diagram {
     max-width: 100%;
   }
-}
+} */
 
 .content-inner {
   max-width: 1100px;
