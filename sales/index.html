@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Academus Sales</title>
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script>
+      window.fcWidget.init({
+        token: "0c243924-1a56-4bd7-b079-4087e8062988",
+        tags: [ "sales" ],
+        host: "https://wchat.freshchat.com"
+      });
+
+      window.fcWidget.on("widget:loaded", function(resp) {
+        window.fcWidget.open({ name: "Sales Team" });
+      });
+
+      window.fcWidget.on("widget:closed", function(resp) {
+        window.fcWidget.open({ name: "Sales Team" });
+      });
+    </script>
+    <style>
+      body {
+        align-items: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background: #272727;
+      }
+
+      #fc_frame {
+        right: initial !important;
+        bottom: initial !important;
+      }
+    </style>
+  </body>
+</html>
