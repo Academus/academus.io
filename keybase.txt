@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/academus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://academus.io
+  * I am academus (https://keybase.io/academus) on keybase.
+  * I have a public key with fingerprint 76CA CC91 740A 3060 1EED  CDC0 6286 55FC D105 4C4B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01019aed456205028a7c29f90d3d4721327422cd09fea50815001cd52df943269d870a",
+      "fingerprint": "76cacc91740a30601eedcdc0628655fcd1054c4b",
+      "host": "keybase.io",
+      "key_id": "628655fcd1054c4b",
+      "kid": "01019aed456205028a7c29f90d3d4721327422cd09fea50815001cd52df943269d870a",
+      "uid": "d7c6415ca4a69076d53eee5bf95ec519",
+      "username": "academus"
+    },
+    "service": {
+      "hostname": "academus.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1537655716,
+  "expire_in": 157680000,
+  "prev": "a4bcf54cada1276831447f5e8928656c1b7a6bffbefa495dfe547c6600871b4c",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSFRBGF6rLd3QIovKHqpjEdWiM2fPnMtG94ciyJAKrIxlzsyc9Wjt
+2c45u10N6iG60RULuplkBUJUpsEqlFpgaBcxtAKVIiqKSiKJgqDmWL1Ej83LMP//
+/d//fR9zN3OoL5B2NFAFXj852ZXW3nwi4Vt36U71dkG36FYhvF0oY4MX20CZ40bK
+TCqEBQAB1DCjEpJFgICoYoWImqEBGqKSIsKQqEiiSCjQDIYRUCECABKKRGpoUkiU
+NaoqAAtBwTBjUWbHbTPmclpFJpgQDSoSwCEgA8gYJZQAWVRlhAxCIUASkXQ+WGI5
+3gQXp2OH5ZkWr/FHZFDeP/D/WXdikI4qRJYgIljCsgYUmaIQYwzphoYYQVDzgA6z
+Y3gj42hMMGUbE45QHhR4NWkS5gXrOfkL8ctO3LZci1gbeKPEdeNO2Bt0t8Y95Gam
+R35zRHQzRnmMfCLJbMe0YkIYciRxTY8UopDCw1CgHBTYlrhps4jpIZAiq4Afbw9L
+esslnRg8LkwxFHkzBCVJMRBTNS9NmUBdwbJuGDozsKQhajAkcf8yAKoCdYkInqtN
+MUsIh7hMHOWUjhmNYTdhM6G8pal4mC8t4BvuH+J9L18gY/SfT7dk5ogf267m+opv
+F8wpuHct7HYcGLhydtVJWHr/Wd2O5R+PLTyUZKlTm1JFM3I+n/82LX4iv0MWtaKe
+6knD8774a50vfvIqOPnrvt2GVfVy0bJ4z+H9Dxrp6ZVrDoycvu+dmtk3fq1TkT0s
+Y35ultsSXF2x7H1V/rl5E1vbLrZ+cGM3slf4bjV0zs3JtSvGXj9Tv/55uvvweGVv
+TnpNYf/izKzyI/WJFynW1Lvz8d4hzau+qeOe7imYcHSgq2FWWffIm2/nL8YX7e6D
+U5tSn95/P/gmVVFX2b/L/6gvf86lmuIFtVkX9AV5dUtXzk4eQYXamExncyB7x/lG
+MKW9My+jLVp6ueRCapT+E1KcPPU=
+=+Jrl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/academus
+
+==================================================================
