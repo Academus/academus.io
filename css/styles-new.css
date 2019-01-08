@@ -46,6 +46,17 @@ body {
   background: #212121;
 }
 
+.btn {
+  display: inline-block;
+  font-size: 0.4em;
+  text-decoration: none;
+  color: #FFF;
+  background: #6daa6d;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
 .hero-content {
   margin: 0 auto;
   position: absolute;
